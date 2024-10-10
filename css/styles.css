@@ -50,6 +50,13 @@ hr {
 #sample-btn {
     width: 100%;
     text-align: center;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+    #sample-btn {
+        margin-top: 30rem;
+    }
 }
 
 #box {
