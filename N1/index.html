@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kanji Slideshow</title>
+    <script src="/vocab-slideshow/data/data.js"></script>
+    <script src="/vocab-slideshow/data/N1.js"></script>
+    <script src="/vocab-slideshow/js/dmak.js"></script>
+    <script src="/vocab-slideshow/js/raphael-min.js"></script>
+    <link rel="stylesheet" href="/vocab-slideshow/css/styles.css">
+</head>
+
+<body>
+    <h1 id="kanji"></h1>
+    <hr>
+    <div id="box">
+        <div id="prevNext">
+            <div id="prev"><a href="javascript:prev()">⟵</a></div>
+            <div id="heading"></div>
+            <div id="next"><a href="javascript:next()">⟶</a> </div>
+        </div>
+        <div id="draw"></div>
+        <div id="story"></div>
+    </div>
+    <div id="sample-btn">
+        <button id="p">←</button>
+        <button id="s">■</button>
+        <button id="g">▶</button>
+        <button id="n">→</button>
+        <button id="r">✕</button>
+    </div>
+    <div id="lower-box">
+        <!-- <label for="gotoInput" id="goto-label">Goto:</label> -->
+        <input type="text" id="gotoInput" placeholder="Goto;">
+        <button id="gotoButton">go</button>
+    </div>
+    <script src="/vocab-slideshow/js/slideshow.js"></script>
+    <script src="/vocab-slideshow/js/controls.js"></script>
+</body>
+
+</html>

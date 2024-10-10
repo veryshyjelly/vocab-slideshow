@@ -1,0 +1,110 @@
+:root {
+    --box-height: 400px;
+}
+
+h1 {
+    color: #007ade;
+    font-weight: normal;
+    text-align: center;
+    font-family: Verdana, Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+}
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid #bababa;
+    opacity: 0.5
+}
+
+#prevNext {
+    display: flex;
+    width: 100%;
+}
+
+
+#prev {
+    display: inline;
+    margin-right: auto;
+    margin-left: 20rem;
+}
+
+#next {
+    display: inline;
+    margin-left: auto;
+    margin-right: 20rem;
+}
+
+#heading {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+}
+
+#draw {
+    width: 100%;
+    height: var(--box-height);
+}
+
+#sample-btn {
+    width: 100%;
+    text-align: center;
+}
+
+#box {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+#lower-box {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#goto-label {
+    font-size: x-large;
+    margin: auto 10px auto auto;
+}
+
+#gotoInput {
+    margin-left: auto;
+    width: 7rem;
+    height: 3rem;
+    font-size: 40px;
+}
+
+#gotoButton {
+    margin: auto auto auto 10px;
+}
+
+a {
+    font-size: 40px;
+    color: #9b3732;
+    text-decoration: none
+}
+
+a:visited {
+    color: #262626
+}
+
+a:hover {
+    color: #e2e2e2
+}
+
+a:focus {
+    color: #000000;
+    outline: thin dotted
+}
