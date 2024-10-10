@@ -3,7 +3,7 @@ const URI = "/vocab-slideshow";
 const SPEED = 0.008
 
 let dmak;
-let autoPlay = true;
+let autoPlay = false;
 let autoNext = true;
 let playing = true;
 
