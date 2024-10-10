@@ -18,6 +18,7 @@ const play = () => {
     dmak.options.autonext = true;
     autoPlay = true;
     dmak.render();
+    playAudio();
 }
 
 p.onclick = backStroke;

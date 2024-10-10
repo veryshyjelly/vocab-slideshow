@@ -8,9 +8,10 @@ let autoNext = true;
 let playing = true;
 
 let index = 1;
+let audioFile = "";
 
-function playAudio(file) {
-    let audio = new Audio(URI + `/audios/${file}.mpeg`);
+function playAudio() {
+    let audio = new Audio(URI + `/audios/${audioFile}.mpeg`);
     audio.play();
 }
 
@@ -31,7 +32,8 @@ function main() {
         "step": SPEED,
     },
         main, 1000);
-    playAudio(data.audio);
+    audioFile = data.audio;
+    playAudio();
     index += 1;
 }
 
